@@ -1,25 +1,18 @@
 import argparse
 import collections
 import numpy as np
+import pims
 import cellquant as cq
-from thesis_base.utils import ConfigParser
+import matplotlib.pyplot as plt
+from skimage.io import imread, imsave
+from skimage.util import img_as_ubyte
+from cellquant.smt import detect_blobs, detect_blobs_batch
 
-def main(config):
+#read in the data
+path = '/home/cwseitz/Desktop/quintero_data/'
+file = 'FastImg_Cell01.tif'
+im = imread(path+file)
+nt, nx, ny, nc = im.shape
 
-    pass
-
-
-if __name__ == '__main__':
-    args = argparse.ArgumentParser(description='Simple Config')
-    args.add_argument('-c', '--config', default=None, type=str,
-                      help='config file path (default: None)')
-    args.add_argument('-r', '--resume', default=None, type=str,
-                      help='path to latest checkpoint (default: None)')
-    args.add_argument('-d', '--device', default=None, type=str,
-                      help='indices of GPUs to enable (default: all)')
-
-    # custom cli options to modify configuration from default values given in json file.
-    CustomArgs = collections.namedtuple('CustomArgs', 'flags type target')
-    options = []
-    config = ConfigParser.from_args(args, options)
-    main(config)
+#detect RNA in all frames
+blobs_df, plt_array = detect_blobs_batch(im[:100,:,:,2],threshold=0.05)
