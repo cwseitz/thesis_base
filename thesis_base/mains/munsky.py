@@ -65,7 +65,7 @@ np.savez_compressed('step04_ctt1_rep2', tt=ctt1_tt[1], ts_nuc=ctt1_ts_nuc[1], ts
 np.savez_compressed('step04_ctt1_rep3', tt=ctt1_tt[2], ts_nuc=ctt1_ts_nuc[2], ts=ctt1_ts[2])
 np.savez_compressed('step04_stl1_rep1', tt=stl1_tt[0], ts_nuc=stl1_ts_nuc[0], ts=stl1_ts[0])
 np.savez_compressed('step04_stl1_rep2', tt=stl1_tt[1], ts_nuc=stl1_ts_nuc[1], ts=stl1_ts[1])
-np.savez_compressed('step04_stl1_rep1', tt=stl1_tt[2], ts_nuc=stl1_ts_nuc[2], ts=stl1_ts[2])
+np.savez_compressed('step04_stl1_rep3', tt=stl1_tt[2], ts_nuc=stl1_ts_nuc[2], ts=stl1_ts[2])
 
 
 
