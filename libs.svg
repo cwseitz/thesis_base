@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (1:1.2+202206011327+fc4e4096c5)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.73228114"
+     inkscape:cx="305.89344"
+     inkscape:cy="384.4152"
+     inkscape:window-width="1920"
+     inkscape:window-height="962"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="114.00688"
+       y="95.133125"
+       id="text1467"><tspan
+         sodipodi:role="line"
+         id="tspan1465"
+         style="stroke-width:0.264583"
+         x="114.00688"
+         y="95.133125">thesis_base</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="39.616714"
+       y="54.022415"
+       id="text1629"><tspan
+         sodipodi:role="line"
+         id="tspan1627"
+         style="stroke-width:0.264583"
+         x="39.616714"
+         y="54.022415">image_tools</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="40.863392"
+       y="133.37384"
+       id="text1633"><tspan
+         sodipodi:role="line"
+         id="tspan1631"
+         style="stroke-width:0.264583"
+         x="40.863392"
+         y="133.37384">deepVI</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="40.863392"
+         y="146.60297"
+         id="tspan5455" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="40.863392"
+         y="159.83209"
+         id="tspan5457" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="200.16328"
+       y="53.350788"
+       id="text2413"><tspan
+         sodipodi:role="line"
+         id="tspan2411"
+         style="stroke-width:0.264583"
+         x="200.16328"
+         y="53.350788">cellquant</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="198.22023"
+       y="131.60643"
+       id="text4595"><tspan
+         sodipodi:role="line"
+         id="tspan4593"
+         style="stroke-width:0.264583"
+         x="198.22023"
+         y="131.60643">stat_tools</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="39.223423"
+       y="66.477692"
+       id="text5325"><tspan
+         id="tspan5323"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="39.223423"
+         y="66.477692"
+         sodipodi:role="line">segmentation</tspan><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="39.223423"
+         y="72.651306"
+         id="tspan5327"
+         sodipodi:role="line">registration</tspan><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="39.223423"
+         y="78.824913"
+         sodipodi:role="line"
+         id="tspan5329">filtering</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="114.66995"
+       y="108.26517"
+       id="text5325-35"><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="114.66995"
+         y="108.26517"
+         sodipodi:role="line"
+         id="tspan5329-9">plotting functions</tspan><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="114.66995"
+         y="114.43879"
+         sodipodi:role="line"
+         id="tspan5441">main scripts and configs</tspan><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="114.66995"
+         y="120.6124"
+         sodipodi:role="line"
+         id="tspan5445" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="200.89943"
+       y="65.471962"
+       id="text5325-3"><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="200.89943"
+         y="65.471962"
+         sodipodi:role="line"
+         id="tspan5329-5">particle tracking</tspan><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="200.89943"
+         y="71.645576"
+         sodipodi:role="line"
+         id="tspan5381">object detection</tspan><tspan
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="200.89943"
+         y="77.819183"
+         sodipodi:role="line"
+         id="tspan5383">animations</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="41.944561"
+       y="143.46696"
+       id="text5449"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="41.944561"
+         y="143.46696"
+         id="tspan5453">Deep learning based</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="41.944561"
+         y="147.87668"
+         id="tspan5693">variational inference</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="41.944561"
+         y="152.28639"
+         id="tspan5765">PyTorch architectures</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="198.32106"
+       y="140.75659"
+       id="text5449-1"><tspan
+         sodipodi:role="line"
+         id="tspan5447-2"
+         style="stroke-width:0.264583"
+         x="198.32106"
+         y="140.75659">Variational Bayes</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="198.32106"
+         y="145.16631"
+         id="tspan5686">MCMC</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="198.32106"
+         y="149.57602"
+         id="tspan5451-7">Stochastic simulation algorithm</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="198.32106"
+         y="153.98573"
+         id="tspan5453-0">Optimization routines</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="73.155334"
+       y="165.69571"
+       id="text5751"><tspan
+         sodipodi:role="line"
+         id="tspan5749"
+         style="stroke-width:0.264583"
+         x="73.155334"
+         y="165.69571" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 83.526221,70.0588 c 2.45468,1.74234 24.323059,18.529718 24.323059,18.529718"
+       id="path5824" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 83.827418,115.72794 107.52497,95.625427"
+       id="path5826" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 178.87841,87.079221 16.54811,-16.81567"
+       id="path5828" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 179.10745,95.887856 18.19144,19.320764"
+       id="path5830" />
+  </g>
+</svg>
