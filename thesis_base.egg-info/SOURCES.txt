@@ -1,3 +1,4 @@
+README.md
 setup.py
 thesis_base.egg-info/PKG-INFO
 thesis_base.egg-info/SOURCES.txt
