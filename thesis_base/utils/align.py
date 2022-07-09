@@ -2,6 +2,7 @@ from glob import glob
 import pandas as pd
 import numpy as np
 import biomart
+import mygene
 import pickle
 import os
 
@@ -60,3 +61,33 @@ def add_gene_name(df,col):
     ensembl_map = get_ensembl_mappings()
     df['gene_name'] = df.apply(lambda row : map_ensembl_to_genesymbol(row[col],ensembl_map),axis=1)
     return df
+
+def refseq_to_gene_name(ids):
+
+    """
+    Too lazy to find a db with all of the mappings, but I can convert
+    a list of refseq ids, if it is provided. This function will pickle the dict 
+    and save in the wd and try to load it by default
+    """
+
+    print('Getting RefSeq mappings...')
+    if not os.path.exists('refseq_map.json'):
+        mg = mygene.MyGeneInfo()
+        refseq_map = mg.querymany(ids, scopes='refseq', as_dataframe=True)
+        print(refseq_map)
+        refseq_map = dict(zip(refseq_map.index, refseq_map['symbol']))
+        print('Done. Dumping to disk...')
+        fp = open('refseq_map.json', 'wb')
+        pickle.dump(refseq_map, fp, protocol=pickle.HIGHEST_PROTOCOL)
+    else:
+        print('Found refseq_map.json for RefSeq mappings...')
+        fp = open('refseq_map.json', 'rb') 
+        refseq_map = pickle.load(fp)
+    return refseq_map
+
+
+
+
+
+
+

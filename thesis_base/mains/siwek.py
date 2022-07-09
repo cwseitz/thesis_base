@@ -2,9 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import networkx as nx
-from thesis_base.utils import add_gene_name
+from thesis_base.utils import *
 from thesis_base.plots import *
-from stats import MomentInference, MaximumLikelihood, dBP
 from stats import kraskov_mi
 
 def match(df1, df2):
@@ -14,6 +13,7 @@ def match(df1, df2):
 
 path = '/home/cwseitz/Desktop/'
 volc_df = pd.read_csv(path+'1-s2.0-S1097276520306882-mmc2.csv')
+
 log2fc_thres = 0.58
 ns = [100,100,100,100]
 fig1, ax1 = plt.subplots()
@@ -21,11 +21,16 @@ fig2, ax2 = plt.subplots(2,2)
 ax2 = ax2.ravel()
 
 volc_df = add_gene_name(volc_df,col='GeneID')
+volc_df.to_csv(path+'with-names.tsv', sep='\t')
 volcano(ax1, volc_df,'log2(FC)','P-value',log2fc_thres=log2fc_thres)
+plt.show()
 
 df_naive = pd.read_csv(path+'GSE150198_single_cell_RNA-seq_naive_readcounts_corrected.tab',sep='\t')
 df_prime = pd.read_csv(path+'GSE150198_single_cell_RNA-seq_priming_readcounts_corrected.tab',sep='\t')
 
+ids = df_naive['gene IDs'].to_list()
+refseq_map = refseq_to_gene_name(ids[:10])
+print(refseq_map)
 
 df_naive['avg'] = df_naive.mean(axis=1)
 df_prime['avg'] = df_prime.mean(axis=1)
@@ -108,7 +113,6 @@ plt.show()
 #############################################################
 #Degree distribution from the adjacency matrix
 #############################################################
-
 
 
 

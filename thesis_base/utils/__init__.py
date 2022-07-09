@@ -1,2 +1,2 @@
 from .parse_config import *
-from .ensembl import *
+from .align import *
